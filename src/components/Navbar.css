@@ -1,0 +1,27 @@
+header {
+  grid-area:  header;
+  background-color:  #203040;
+  color:  #ffffff;
+  padding: 0.5rem;
+}
+
+header nav{
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header a {
+  color:  #ffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+header a:hover{
+  color:  #f08040;
+}
+a{ 
+  color: #000000;
+text-decoration: none; 
+}
+a:hover{
+  color: #f08040;
+}
